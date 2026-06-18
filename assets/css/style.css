@@ -1,0 +1,46 @@
+/* Typography */
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.7;
+  color: #222;
+  background: #fafafa;
+}
+
+h1, h2, h3 {
+  font-family: "Merriweather", Georgia, serif;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-top: 2rem;
+}
+
+a {
+  color: #004c99;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin-right: 1.5rem;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  font-size: 0.9rem;
+  color: #555;
+}
